@@ -1,0 +1,21 @@
+.elements {
+  width: 100%;
+  background: #333333;
+  display: flex;
+  justify-content: space-between;
+
+  .first-piece {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-piece {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    border-bottom: 2px orangered;
+    select {
+      width: 80px;
+      height: 30px;
+    }
+  }
+ }

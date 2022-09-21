@@ -1,0 +1,14 @@
+* {
+  font-family: sans-serif Arial;
+  margin: 0;
+  padding: 0;
+}
+.App {
+
+  text-align: center;
+  padding: 0 30px;
+  background-color: #353550;
+  color: white;
+}
+
+
