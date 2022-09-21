@@ -1,34 +1,25 @@
-// import React from 'react';
-// import {useState} from "react";
-//
-//
-// function Direct() {
-//     const [list, setList] = useState(false);
-//
-//     const handleClick = (e) => {
-//         e.preventDefault()
-//         if(e.target.value) {
-//             setList(!list)
-//         }
-//         setList(!list)
-//     }
-// return (
-//
-//     <table>
-//         <button className = 'active-select-option'
-//                 onClick = {handleClick}>Actions</button>
-//         {list ?
-//             <div className = "select-option">
-//                 <ul id = 'action1' className = "select-option-inner rounded">
-//
-//                     <li>Buy More</li>
-//
-//                     <li>Sell </li>
-//
-//                     <li>Next Li Tag</li>
-//                     <li>Edit Detials</li>
-//                 </ul>
-//             </div> :  ' ' }
-//     </table> )
-// }
-// export default Direct;
+function Direct() {
+    return (
+        <div className="elements">
+            <div className="first-piece">
+                <p>Dynamic Ticket Pricing</p>
+                <button className="button-copy">dynamic-ticket-pricing</button>
+                <p>Whether or not we should enable dynamic ticket pricing.</p>
+                <button className="button">pricing-eng</button>
+            </div>
+            <div className="second-piece">
+                <span>Targeting</span>
+                <label className="switch">
+                    <input type="checkbox" />
+                    <span className="slider round"></span>
+                </label>
+                <select>
+                    <option>Actions</option>
+                    <option>Enable</option>
+                    <option>Disable</option>
+                </select>
+            </div>
+        </div>
+    )
+}
+  export default Direct;
